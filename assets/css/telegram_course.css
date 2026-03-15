@@ -16,7 +16,7 @@
 .telegram-ready-courses__bg {
       position: absolute;
       inset: 0;
-      background: url("/assets/img/course/telegram-course/course-section/bg__img.svg") center center / cover no-repeat;
+      background: url("../../../assets/img/course/telegram-course/course-section/bg__img.svg") center center / cover no-repeat;
       transform: scale(1.06);
       filter: blur(1px);
       z-index: 1;
