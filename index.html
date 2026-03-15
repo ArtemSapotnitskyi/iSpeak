@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./assets/lib/splide/splide.min.css">
+      <link rel="stylesheet" href="./assets/css/reset.css">
+      <link rel="stylesheet" href="./assets/css/components.css">
+      <link rel="stylesheet" href="./assets/css/base.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+            rel="stylesheet">
+      <link rel="stylesheet" href="./assets/css/animations.css">
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <title>Speak</title>
+</head>
+
+<body>
+      <!-- Header -->
+      <header class="header" id="siteHeader">
+            <div class="container">
+                  <div class="wrapper__header">
+                        <div class="header__right">
+                              <div class="logo__header">
+                                    <a href="#hero">
+                                          <img src="./assets/img/header/Logo__img__removed.svg" alt="Logo">
+                                    </a>
+                              </div>
+
+                              <nav class="navigation">
+                                    <ul>
+                                          <li><a href="./pages/courses/index.html">Курси</a></li>
+                                          <li><a href="#about_us">Про нас</a></li>
+                                          <li><a href="#reviews">Відгуки</a></li>
+                                          <li><a href="#contacts">Контакти</a></li>
+                                    </ul>
+                              </nav>
+                        </div>
+
+                        <div class="wrapper__contakt">
+                              <div class="wrapper__call">
+                                    <div class="phone__ring">
+                                          <svg class="phone__icon" xmlns="http://www.w3.org/2000/svg"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path
+                                                      d="M18.07 22h.35c.47-.02.9-.26 1.17-.64l2.14-3.09c.23-.33.32-.74.24-1.14s-.31-.74-.64-.97l-4.64-3.09a1.47 1.47 0 0 0-.83-.25c-.41 0-.81.16-1.1.48l-1.47 1.59c-.69-.43-1.61-1.07-2.36-1.82s-1.39-1.68-1.82-2.36l1.59-1.47c.54-.5.64-1.32.23-1.93L7.84 2.67c-.22-.33-.57-.57-.97-.64a1.46 1.46 0 0 0-1.13.24L2.65 4.41c-.39.27-.62.7-.64 1.17-.03.69-.16 6.9 4.68 11.74 4.35 4.35 9.81 4.69 11.38 4.69ZM6.88 10.05c-.16.15-.21.39-.11.59.05.09 1.15 2.24 2.74 3.84 1.6 1.6 3.75 2.7 3.84 2.75.2.1.44.06.59-.11l1.99-2.15 3.86 2.57-1.7 2.46c-1.16 0-6.13-.24-9.99-4.1S4 7.06 4 5.91l2.46-1.7 2.57 3.86-2.15 1.99ZM20.1 13.1c2.53-2.53 2.53-6.66 0-9.19s-6.66-2.53-9.19 0l1.41 1.41a4.51 4.51 0 0 1 6.36 0 4.51 4.51 0 0 1 0 6.36l1.41 1.41Z">
+                                                </path>
+                                                <path
+                                                      d="M17.71 10.71a3.114 3.114 0 0 0 0-4.41 3.114 3.114 0 0 0-4.41 0l1.41 1.41c.44-.44 1.15-.44 1.59 0s.44 1.15 0 1.59z">
+                                                </path>
+                                          </svg>
+                                    </div>
+
+                                    <div class="phone__number">
+                                          <h2>+380123456789</h2>
+                                    </div>
+                              </div>
+
+                              <div class="button__course">
+                                    <button type="button" data-open-modal="course-modal">Записатись на курс</button>
+                              </div>
+
+                              <div class="wrapper__social">
+                                    <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                                          fill="currentColor" viewBox="0 0 24 24">
+                                          <path
+                                                d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 3 3 0 0 1 .88.13V9.4a7 7 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a5 5 0 0 1-1-.1z">
+                                          </path>
+                                    </svg>
+
+                                    <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                                          fill="currentColor" viewBox="0 0 24 24">
+                                          <path
+                                                d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248m0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008m4.807-8.875a1.078 1.078 0 1 0 0 2.156 1.078 1.078 0 1 0 0-2.156">
+                                          </path>
+                                          <path
+                                                d="M20.533 6.111A4.6 4.6 0 0 0 17.9 3.479a6.6 6.6 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.6 6.6 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.6 6.6 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71s0 2.753.056 3.71c.015.748.156 1.486.419 2.187a4.6 4.6 0 0 0 2.634 2.632 6.6 6.6 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.6 6.6 0 0 0 2.186-.419 4.6 4.6 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.6 6.6 0 0 0-.421-2.217m-1.218 9.532a5 5 0 0 1-.311 1.688 3 3 0 0 1-1.712 1.711 5 5 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a5 5 0 0 1-1.669-.311 3 3 0 0 1-1.719-1.711 5.1 5.1 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654s0-2.686.053-3.655a5 5 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5 5 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a5 5 0 0 1 1.67.311 3 3 0 0 1 1.712 1.712 5.1 5.1 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655s0 2.698-.043 3.654z">
+                                          </path>
+                                    </svg>
+                              </div>
+
+                              <button class="burger__button" id="burgerButton" type="button" aria-label="Відкрити меню">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                              </button>
+                        </div>
+                  </div>
+            </div>
+      </header>
+
+      <!-- Main Content -->
+      <main>
+            <!-- Section 1 -->
+            <section class="hero">
+                  <div class="container container__wrapp__hero">
+                        <div class=" wrapper__hero">
+                              <div class="content__left__hero fade-left">
+                                    <img src="./assets/img/landing/hero/Logo_hero_speak.svg" alt="speak">
+                                    <h1 class="text__hero">
+                                          ЦЕНТР АНГЛІЙСЬКОЇ МОВИ.
+                                          <br />
+                                          <span>РОЗКРИЙ МОЖЛИВОСТІ З НАМИ!</span>
+                                    </h1>
+                                    <button class="button__form button__hero" data-open-modal="course-modal">Записатись
+                                          <span>на курс</span></button>
+                              </div>
+
+                              <div class="content__right__hero fade-right">
+                                    <img src="./assets/img/landing/hero/img_hero.png" alt="">
+
+                                    <div class="hero__card card1">
+                                          <img src="./assets/img/landing/hero/card-hero/education.svg" alt="education">
+                                          <div class="title__card2">
+                                                <h3>30+</h3>
+                                                <p>Hours of learning</p>
+                                          </div>
+                                    </div>
+
+                                    <div class="hero__card card2">
+                                          <img src="./assets/img/landing/hero/card-hero/users.svg" alt="users">
+                                          <div class="title__card2">
+                                                <h3>250+</h3>
+                                                <p>Active Students</p>
+                                          </div>
+                                    </div>
+                                    <div class="hero__card card3">
+                                          <img src="./assets/img/landing/hero/card-hero/tick.svg" alt="tick">
+                                          <div class="title__card3">
+                                                <p>Got</p>
+                                                <h3>A+</h3>
+                                          </div>
+
+                                    </div>
+                                    <div class="hero__card card4">
+                                          <div class="icon__ticks_card">
+                                                <img src="./assets/img/landing/hero/card-hero/ticks.svg" alt="ticks">
+                                                <img src="./assets/img/landing/hero/card-hero/ticks.svg" alt="ticks">
+                                          </div>
+                                          <p>
+                                                Online training / Offline training
+                                                <br />
+                                                Online courses / Offline courses
+                                          </p>
+                                    </div>
+
+                              </div>
+                        </div>
+                        <div class="hero__stats animate-on-scroll">
+
+                              <div class="stat_path stat1">
+                                    <h3>16+</h3>
+                                    <p>Курсів</p>
+                              </div>
+
+                              <div class="stat_path stat2">
+                                    <h3>BEGINNER</h3>
+                                    <p>Англійська для початківців</p>
+                              </div>
+
+                              <div class="stat_path stat3">
+                                    <h3>A+</h3>
+                                    <p>Результати</p>
+                              </div>
+                        </div>
+                  </div>
+
+            </section>
+
+            <!-- Section 2 -->
+            <section class="courses">
+                  <div class="container wrapper_courses">
+                        <div class="text__section__courses fade-up">
+                              <h2>Вивчай англійську разом із <span class="brand">Sp<span
+                                                class="brand-accent">e</span>ak</span></h2>
+                              <a href="./pages/courses/index.html" class="section__link">Дізнатись більше</a>
+                        </div>
+                        <!-- Slider -->
+                        <div class="splide courses__slider">
+
+                              <div class="splide__track">
+                                    <ul class="splide__list">
+
+                                          <!-- Card-1 -->
+                                          <li class="splide__slide">
+                                                <div class="wrapper__course__card">
+                                                      <div class="card__img">
+                                                            <img src="./assets/img/landing/course-slider/card/card_1.jpg"
+                                                                  alt="Course">
+                                                      </div>
+                                                      <div class="content__card">
+                                                            <h2>Англійська для дітей</h2>
+                                                            <p>Англійська для дітей у цікавому та дружньому форматі.
+                                                                  Навчаємось через ігри, діалоги та практику.
+                                                            </p>
+                                                            <div class="level__cours animation__more__info">
+                                                                  <p>Очікуваний рівень: А2-В1</p>
+                                                                  <a href="./pages/courses/index.html">Дізнатись
+                                                                        більше</a>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+
+                                          <!-- Card-2 -->
+                                          <li class="splide__slide">
+                                                <div class="wrapper__course__card animation__more__info">
+                                                      <div class="card__img">
+                                                            <img src="./assets/img/landing/course-slider/card/card_2.jpg"
+                                                                  alt="Course">
+                                                      </div>
+                                                      <div class="content__card">
+                                                            <h2>Англійська для дорослих</h2>
+                                                            <p>Англійська для дорослих з акцентом на практику, діалоги
+                                                                  та реальні життєві ситуації.
+                                                            </p>
+                                                            <div class="level__cours animation__more__info">
+                                                                  <p>Очікуваний рівень: А2-В1</p>
+                                                                  <a href="./pages/courses/index.html">Дізнатись
+                                                                        більше</a>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+
+                                          <!-- Card-3 -->
+                                          <li class="splide__slide">
+                                                <div class="wrapper__course__card">
+                                                      <div class="card__img">
+                                                            <img src="./assets/img/landing/course-slider/card/card_3.jpg"
+                                                                  alt="Course">
+
+                                                      </div>
+                                                      <div class="content__card">
+                                                            <h2>Бізнес-Англійська</h2>
+                                                            <p>Англійська для дорослих з акцентом на практику, діалоги
+                                                                  та реальні життєві ситуації.
+                                                            </p>
+                                                            <div class="level__cours animation__more__info">
+                                                                  <p>Очікуваний рівень: А2-В1</p>
+                                                                  <a href="./pages/courses/index.html">Дізнатись
+                                                                        більше</a>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+
+                                          <!-- Card-4 -->
+                                          <li class="splide__slide">
+                                                <div class="wrapper__course__card">
+                                                      <div class="card__img">
+                                                            <img src="./assets/img/landing/course-slider/card/card_4.jpg"
+                                                                  alt="Course">
+
+                                                      </div>
+                                                      <div class="content__card">
+                                                            <h2>Онлайн-уроки</h2>
+                                                            <p>Онлайн-заняття з англійської у зручному форматі.
+                                                                  Практикуємо розмовну мову, граматику.
+                                                            </p>
+                                                            <div class="level__cours animation__more__info">
+                                                                  <p>Очікуваний рівень: А2-В1</p>
+                                                                  <a href="./pages/courses/index.html">Дізнатись
+                                                                        більше</a>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+
+                                          <!-- Card-5 -->
+                                          <li class="splide__slide">
+                                                <div class="wrapper__course__card">
+                                                      <div class="card__img">
+                                                            <img src="./assets/img/landing/course-slider/card/card_5.jpg"
+                                                                  alt="Course">
+
+                                                      </div>
+                                                      <div class="content__card">
+                                                            <h2>Підготовка до іспитів</h2>
+                                                            <p>Курс підготовки до іспитів з практикою тестових завдань
+                                                                  та реальних форматів екзамену.
+                                                            </p>
+                                                            <div class="level__cours animation__more__info">
+                                                                  <p>Очікуваний рівень: А2-В1</p>
+                                                                  <a href="./pages/courses/index.html">Дізнатись
+                                                                        більше</a>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+                                          <!-- Card-6 -->
+                                          <li class="splide__slide">
+                                                <div class="wrapper__course__card">
+                                                      <div class="card__img">
+                                                            <img src="./assets/img/landing/course-slider/card/card_6.jpg"
+                                                                  alt="Course">
+
+                                                      </div>
+                                                      <div class="content__card">
+                                                            <h2>Парні заняття</h2>
+                                                            <p>Ефективне навчання у парі з великою кількістю розмовної
+                                                                  практики.
+                                                            </p>
+                                                            <div class="level__cours animation__more__info">
+                                                                  <p>Очікуваний рівень: А2-В1</p>
+                                                                  <a href="./pages/courses/index.html">Дізнатись
+                                                                        більше</a>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+
+                                          <!-- Card-7 -->
+                                          <li class="splide__slide">
+                                                <div class="wrapper__more__card">
+                                                      <div class="animation__more__info last__card">
+                                                            <a href="./pages/courses/index.html">Дізнатись більше</a>
+                                                      </div>
+                                                </div>
+                                          </li>
+                                    </ul>
+                              </div>
+
+                        </div>
+                  </div>
+            </section>
+
+            <!-- Section 3 -->
+            <section class="portfolio animate-on-scroll" id="about_us">
+                  <div class="container wrapper__portfolio">
+                        <div class="left__portfolio fade-left">
+                              <div class="left__portfolio__img ">
+                                    <img src="./assets/img/landing/portfolio/main_img.jpg" alt="owner">
+                                    <h2>Natalia Moskalenko</h2>
+                              </div>
+                              <div class="cv__portfolio">
+                                    <p>Привіт! Я Наталя Москаленко, засновниця та керівник центру іноземних мов
+                                          <span>“Speak”</span>, а також викладач англійської та німецької мов.
+                                    </p>
+                                    <ul class="about__list">
+                                          <li>Викладаю онлайн та офлайн.</li>
+                                          <li>Авторка курсів для різних сфер і рівнів.</li>
+                                          <li>Англійська для життя та роботи.</li>
+                                    </ul>
+                                    <button class="button__form button__portfolio"
+                                          data-open-modal="course-modal">Розпочни навчання</button>
+
+                              </div>
+                        </div>
+                        <div class="right__portfolio fade-right">
+                              <h1>Natalia Moskalenko</h1>
+                              <div class="statistic__portfolio">
+                                    <div>
+                                          <h3>3K+</h3>
+                                          <p>Проведених онлайн уроків</p>
+                                    </div>
+                                    <div>
+                                          <h3>4K+</h3>
+                                          <p>Проведених офлайн уроків</p>
+                                    </div>
+                                    <div>
+                                          <h3>10K+</h3>
+                                          <p>Випускників</p>
+                                    </div>
+                              </div>
+                              <div class="portfolio__imgs">
+                                    <img class="portfolio__img__1" src="./assets/img/landing/portfolio/second_img_1.jpg"
+                                          alt="img_owner">
+                                    <img class="portfolio__img__2" src="./assets/img/landing/portfolio/second_img_2.jpg"
+                                          alt="img_owner">
+                              </div>
+                        </div>
+                  </div>
+            </section>
+
+            <!-- Section 4 -->
+            <section class="courses__target fade-up">
+                  <div class="container">
+                        <div class="text__section__target">
+                              <h2>Для кого підходять ці курси?</h2>
+                              <p>Наші курси підходять для всіх вікових груп та рівнів підготовки!</p>
+                        </div>
+
+                        <!-- Cards -->
+                        <div class="target__cards">
+                              <div class="target__card">
+                                    <div class="target__icon">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"
+                                                viewBox="0 0 24 24" fill="#ffffff">
+                                                <g fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                                      stroke-width="2">
+                                                      <path d="M0 0h24v24H0z" />
+                                                      <path fill="currentColor"
+                                                            d="M17 3.34a10 10 0 1 1-14.995 8.984L2 12l.005-.324a10 10 0 0 1 7.046-9.232A3 3 0 0 0 12 6a1 1 0 0 0 0-2l-.117-.007A1 1 0 0 1 12 2c1.726 0 3.453.447 5 1.34zm-1.8 10.946a1 1 0 0 0-1.414.014a2.5 2.5 0 0 1-3.572 0a1 1 0 0 0-1.428 1.4a4.5 4.5 0 0 0 6.428 0a1 1 0 0 0-.014-1.414zM9.01 9l-.127.007A1 1 0 0 0 9 11l.127-.007A1 1 0 0 0 9.01 9zm6 0l-.127.007A1 1 0 0 0 15 11l.127-.007A1 1 0 0 0 15.01 9z" />
+                                                </g>
+                                          </svg>
+                                    </div>
+
+                                    <h3>Діти</h3>
+                                    <img src="./assets/img/landing/courses-target/card_1.jpg" alt="card-target">
+                                    <p>Веселе та інтерактивне навчання для найменших. Англійська через ігри, діалоги,
+                                          творчі завдання та цікаві активності.</p>
+                              </div>
+                              <div class="target__card">
+                                    <div class="target__icon">
+                                          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                                viewBox="0 0 24 24">
+                                                <path
+                                                      d="M12 11c1.71 0 3-1.29 3-3s-1.29-3-3-3-3 1.29-3 3 1.29 3 3 3m0-4c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1m1 5h-2c-2.76 0-5 2.24-5 5v.5c0 .83.67 1.5 1.5 1.5h9c.83 0 1.5-.67 1.5-1.5V17c0-2.76-2.24-5-5-5m-5 5c0-1.65 1.35-3 3-3h2c1.65 0 3 1.35 3 3zm-1.5-6c.47 0 .9-.12 1.27-.33a5.03 5.03 0 0 1-.42-4.52C7.09 6.06 6.8 6 6.5 6 5.06 6 4 7.06 4 8.5S5.06 11 6.5 11m-.39 1H5.5C3.57 12 2 13.57 2 15.5v1c0 .28.22.5.5.5H4c0-1.96.81-3.73 2.11-5m11.39-1c1.44 0 2.5-1.06 2.5-2.5S18.94 6 17.5 6c-.31 0-.59.06-.85.15a5.03 5.03 0 0 1-.42 4.52c.37.21.79.33 1.27.33m1 1h-.61A6.97 6.97 0 0 1 20 17h1.5c.28 0 .5-.22.5-.5v-1c0-1.93-1.57-3.5-3.5-3.5">
+                                                </path>
+                                          </svg>
+                                    </div>
+                                    <h3>Початківці</h3>
+                                    <img src="./assets/img/landing/courses-target/card_2.jpg" alt="card-target">
+                                    <p>Ідеально для тих, хто тільки починає свій шлях у вивченні англійської. Ми
+                                          пояснюємо простими словами  і поступово формуємо впевненість у спілкуванні.
+                                    </p>
+                              </div>
+                              <div class="target__card">
+                                    <div class="target__icon">
+                                          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                                viewBox="0 0 24 24">
+                                                <path
+                                                      d="M16 10c0-2.21-1.79-4-4-4s-4 1.79-4 4 1.79 4 4 4 4-1.79 4-4m-6 0c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2">
+                                                </path>
+                                                <path
+                                                      d="M11.42 21.81c.17.12.38.19.58.19s.41-.06.58-.19c.3-.22 7.45-5.37 7.42-11.82 0-4.41-3.59-8-8-8s-8 3.59-8 8c-.03 6.44 7.12 11.6 7.42 11.82M12 4c3.31 0 6 2.69 6 6 .02 4.44-4.39 8.43-6 9.74-1.61-1.31-6.02-5.29-6-9.74 0-3.31 2.69-6 6-6">
+                                                </path>
+                                          </svg>
+                                    </div>
+                                    <h3>Подорожуючі</h3>
+                                    <img src="./assets/img/landing/courses-target/card_3.jpg" alt="card-target">
+                                    <p>Навчаємо практичної англійської та технічної лексики, яка допоможе впевнено
+                                          працювати та спілкуватися навіть за кордоном.</p>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+
+            <!-- Section 6 -->
+            <section class="benefits">
+                  <div class="container">
+                        <div class="text__section__benefits">
+                              <h2>
+                                    Чому варто обрати
+                                    <span class="brand">Sp<span class="brand-accent">e</span>ak</span>?
+                              </h2>
+                        </div>
+
+                        <div class="wrapper__cards__benefits">
+                              <div class="left__card__benefits fade-left">
+                                    <div class="text__benefits">
+                                          <h2>The Smart Way to Learn English</h2>
+                                          <p>Практична англійська для навчання, роботи та щоденного життя.</p>
+                                          <button class="button__form button__benefits"
+                                                data-open-modal="course-modal">Більше курсів</button>
+                                    </div>
+
+                                    <div class="image__benefits">
+                                          <img src="./assets/img/landing/benefits/main_img.svg" alt="img_benefits">
+                                    </div>
+                              </div>
+
+                              <div class="cards__benefits">
+                                    <div class="benefit__item fade-up delay-1">
+                                          <span class="benefit__number">01</span>
+                                          <h3>Практичні заняття</h3>
+                                          <p>Ми використовуємо діалоги, інтерактиви та реальні ситуації, щоб англійська
+                                                працювала на практиці.</p>
+                                    </div>
+
+                                    <div class="benefit__item fade-up delay-2">
+                                          <span class="benefit__number">02</span>
+                                          <h3>Підтримка викладача</h3>
+                                          <p>Наші викладачі допомагають розібратися у складних темах і завжди
+                                                підтримують на кожному етапі навчання.</p>
+                                    </div>
+
+                                    <div class="benefit__item fade-up delay-3">
+                                          <span class="benefit__number">03</span>
+                                          <h3>Живе спілкування</h3>
+                                          <p>На заняттях ми багато говоримо англійською, щоб мова стала природною
+                                                частиною щоденного життя.</p>
+                                    </div>
+
+                                    <div class="benefit__item fade-up delay-4">
+                                          <span class="benefit__number">04</span>
+                                          <h3>Комфортна атмосфера</h3>
+                                          <p>Навчаємо у дружній атмосфері, де легко ставити запитання, помилятися і
+                                                впевнено рухатись вперед.</p>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+
+            <section class="team fade-up">
+                  <div class="container">
+                        <div class="text__section__team">
+                              <h2>Наша команда</h2>
+                              <p>
+                                    Професійні викладачі з великим досвідом навчання дітей та дорослих.
+                                    Пояснюють складні теми просто та допомагають подолати мовний бар’єр.
+                              </p>
+                        </div>
+
+                        <div class="splide team__slider">
+                              <div class="splide__track">
+                                    <div class="splide__list">
+
+                                          <div class="splide__slide">
+                                                <div class="team__card">
+                                                      <img src="./assets/img/landing/team/card_1.jpg" alt="card-team">
+                                                      <div class="team__text">
+                                                            <h3>Natalia Moskalenko</h3>
+                                                            <p>Наталя Москаленко - керівниця та викладачка англійської.
+                                                            </p>
+                                                            <ul class="skills__list">
+                                                                  <li>Англійська для дорослих</li>
+                                                                  <li>Рівні А1-В2</li>
+                                                            </ul>
+                                                      </div>
+                                                </div>
+                                          </div>
+
+                                          <div class="splide__slide">
+                                                <div class="team__card">
+                                                      <img src="./assets/img/landing/team/card_2.png" alt="card-team">
+                                                      <div class="team__text">
+                                                            <h3>Angelina Surname</h3>
+                                                            <p>Ангеліна Surname - викладач англійської для дітей та
+                                                                  початкових рівнів.</p>
+                                                            <ul class="skills__list">
+                                                                  <li>Діти - 1 клас</li>
+                                                                  <li>Рівні A1–A2</li>
+                                                            </ul>
+                                                      </div>
+                                                </div>
+                                          </div>
+
+                                          <div class="splide__slide">
+                                                <div class="team__card">
+                                                      <img src="./assets/img/landing/team/card_3.jpg" alt="card-team">
+                                                      <div class="team__text">
+                                                            <h3>Maryna Onyshchenko</h3>
+                                                            <p>Марина Онищенко - викладач англійської для дітей та
+                                                                  початкових рівнів</p>
+                                                            <ul class="skills__list">
+                                                                  <li>Дитячий садочок, 1 клас</li>
+                                                                  <li>Рівні А1</li>
+                                                            </ul>
+                                                      </div>
+                                                </div>
+                                          </div>
+
+                                          <div class="splide__slide">
+                                                <div class="team__card">
+                                                      <img src="./assets/img/landing/team/card_1.jpg" alt="card-team">
+                                                      <div class="team__text">
+                                                            <h3>Valeria Surname</h3>
+                                                            <p>Валерія Surname - викладач англійської для підлітків і
+                                                                  дорослих</p>
+                                                            <ul class="skills__list">
+                                                                  <li>Різні типи курсів</li>
+                                                                  <li>Рівні A2–В2</li>
+                                                            </ul>
+                                                      </div>
+                                                </div>
+                                          </div>
+
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+
+            <!-- Section 8 -->
+            <section class="reviews fade-up" id="reviews">
+                  <div class="container">
+                        <div class="text__section__reviews">
+                              <h2>Відгуки студентів</h2>
+                        </div>
+                        <div class="splide reviews__slider">
+                              <div class="splide__track">
+                                    <ul class="splide__list">
+                                          <!-- SLIDE -->
+                                          <li class="splide__slide">
+                                                <div class="review-card">
+                                                      <div class="content__review">
+                                                            <img src="./assets/img/landing/reviews/card_1.PNG"
+                                                                  alt="card-1">
+                                                      </div>
+                                                      <div class="review-author">
+                                                            <img src="./assets/img/landing/reviews/users/card_1.jpg"
+                                                                  alt="user">
+                                                            <div class="user__nikname">
+                                                                  <span>Наталія</span>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+
+                                          <!-- VIDEO SLIDE -->
+                                          <li class="splide__slide">
+                                                <div class="review-card review-card--video">
+                                                      <div class="review-video">
+                                                            <video class="review-video__media" autoplay muted loop
+                                                                  playsinline>
+                                                                  <source src="./assets/img/landing/reviews/card_2.MP4"
+                                                                        type="video/mp4" />
+                                                            </video>
+
+                                                            <button class="review-video__sound is-muted" type="button"
+                                                                  aria-label="Увімкнути звук">
+                                                                  🔇
+                                                            </button>
+                                                      </div>
+
+                                                      <div class="review-author">
+                                                            <img src="./assets/img/landing/reviews/users/card_1.jpg"
+                                                                  alt="user">
+                                                            <div class="user__nikname">
+                                                                  <span>Наталія</span>
+                                                                  <span>@Speak-school</span>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+                                          <!-- SLIDE -->
+                                          <li class="splide__slide">
+                                                <div class="review-card">
+                                                      <div class="content__review">
+                                                            <img src="./assets/img/landing/reviews/card_3.PNG"
+                                                                  alt="card-3">
+                                                      </div>
+                                                      <div class="review-author">
+                                                            <img src="./assets/img/landing/reviews/users/card_1.jpg"
+                                                                  alt="user">
+                                                            <div class="user__nikname">
+                                                                  <span>Наталія</span>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+
+                                          <!-- VIDEO SLIDE -->
+                                          <li class="splide__slide">
+                                                <div class="review-card review-card--video">
+                                                      <div class="review-video">
+                                                            <video class="review-video__media" autoplay muted loop
+                                                                  playsinline>
+                                                                  <source src="./assets/img/landing/reviews/card_4.MP4"
+                                                                        type="video/mp4" />
+                                                            </video>
+
+                                                            <button class="review-video__sound is-muted" type="button"
+                                                                  aria-label="Увімкнути звук">
+                                                                  🔇
+                                                            </button>
+                                                      </div>
+
+                                                      <div class="review-author">
+                                                            <img src="./assets/img/landing/reviews/users/card_1.jpg"
+                                                                  alt="user">
+                                                            <div class="user__nikname">
+                                                                  <span>Наталія</span>
+                                                                  <span>@Speak-school</span>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+
+                                          <!-- SLIDE -->
+                                          <li class="splide__slide">
+                                                <div class="review-card">
+                                                      <div class="content__review">
+                                                            <img src="./assets/img/landing/reviews/card_5.PNG"
+                                                                  alt="card-5">
+                                                      </div>
+                                                      <div class="review-author">
+                                                            <img src="./assets/img/landing/team/card_2.png" alt="user">
+                                                            <div class="user__nikname">
+                                                                  <span>Наталія</span>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+
+                                          <!-- VIDEO SLIDE -->
+                                          <li class="splide__slide">
+                                                <div class="review-card review-card--video">
+                                                      <div class="review-video">
+                                                            <video class="review-video__media" autoplay muted loop
+                                                                  playsinline>
+                                                                  <source src="./assets/img/landing/reviews/card_6.MP4"
+                                                                        type="video/mp4" />
+                                                            </video>
+
+                                                            <button class="review-video__sound is-muted" type="button"
+                                                                  aria-label="Увімкнути звук">
+                                                                  🔇
+                                                            </button>
+                                                      </div>
+
+                                                      <div class="review-author">
+                                                            <img src="./assets/img/landing/reviews/users/card_1.jpg"
+                                                                  alt="user">
+                                                            <div class="user__nikname">
+                                                                  <span>Наталія</span>
+                                                                  <span>@Speak-school</span>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+
+                                          <!-- SLIDE -->
+                                          <li class="splide__slide">
+                                                <div class="review-card">
+                                                      <div class="content__review">
+                                                            <img src="./assets/img/landing/reviews/card_7.JPG"
+                                                                  alt="card-7">
+                                                      </div>
+
+                                                      <div class="review-author">
+                                                            <img src="./assets/img/landing/team/card_2.png" alt="user">
+                                                            <div class="user__nikname">
+                                                                  <span>Наталія</span>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+
+                                          <!-- VIDEO SLIDE -->
+                                          <li class="splide__slide">
+                                                <div class="review-card review-card--video">
+                                                      <div class="review-video">
+                                                            <video class="review-video__media" autoplay muted loop
+                                                                  playsinline>
+                                                                  <source src="./assets/img/landing/reviews/card_8.MP4"
+                                                                        type="video/mp4" />
+                                                            </video>
+
+                                                            <button class="review-video__sound is-muted" type="button"
+                                                                  aria-label="Увімкнути звук">
+                                                                  🔇
+                                                            </button>
+                                                      </div>
+
+                                                      <div class="review-author">
+                                                            <img src="./assets/img/landing/reviews/users/card_1.jpg"
+                                                                  alt="user">
+                                                            <div class="user__nikname">
+                                                                  <span>Наталія</span>
+                                                                  <span>@Speak-school</span>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+
+                                          <!-- SLIDE -->
+                                          <li class="splide__slide">
+                                                <div class="review-card">
+                                                      <div class="content__review">
+                                                            <img src="./assets/img/landing/reviews/card_9.JPG"
+                                                                  alt="card-9">
+                                                      </div>
+
+                                                      <div class="review-author">
+                                                            <img src="./assets/img/landing/team/card_2.png" alt="user">
+                                                            <div class="user__nikname">
+                                                                  <span>Наталія</span>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+
+                                          <!-- VIDEO SLIDE -->
+                                          <li class="splide__slide">
+                                                <div class="review-card review-card--video">
+                                                      <div class="review-video">
+                                                            <video class="review-video__media" autoplay muted loop
+                                                                  playsinline>
+                                                                  <source src="./assets/img/landing/reviews/card_10.MP4"
+                                                                        type="video/mp4" />
+                                                            </video>
+
+                                                            <button class="review-video__sound is-muted" type="button"
+                                                                  aria-label="Увімкнути звук">
+                                                                  🔇
+                                                            </button>
+                                                      </div>
+
+                                                      <div class="review-author">
+                                                            <img src="./assets/img/landing/reviews/users/card_1.jpg"
+                                                                  alt="user">
+                                                            <div class="user__nikname">
+                                                                  <span>Наталія</span>
+                                                                  <span>@Speak-school</span>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </li>
+                                    </ul>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+
+            <!-- Section 9 -->
+            <section class="faq">
+                  <div class="container">
+                        <div class="text__section__faq">
+                              <h2>Часті питання</h2>
+                        </div>
+                        <div class="wrapper__question">
+                              <div class="question__content">
+
+                                    <!-- Question list -->
+                                    <div class="question__list animate-on-scroll">
+
+                                          <!-- Item -->
+                                          <div class="question__item ">
+                                                <button class="faq__question" type="button">
+                                                      <span>Як обрати курс?</span>
+                                                      <span class="faq__icon">+</span>
+                                                </button>
+                                                <div class="faq__answer">
+                                                      <p>
+                                                            Ми допоможемо підібрати курс відповідно до вашого рівня
+                                                            знань,
+                                                            цілей та зручного формату навчання. Для цього можна залишити
+                                                            заявку
+                                                            або записатися на консультацію.
+                                                      </p>
+                                                </div>
+                                          </div>
+
+                                          <!-- Item -->
+                                          <div class="question__item">
+                                                <button class="faq__question" type="button">
+                                                      <span>Чи є пробне заняття?</span>
+                                                      <span class="faq__icon">+</span>
+                                                </button>
+                                                <div class="faq__answer">
+                                                      <p>
+                                                            Так, у нас є можливість відвідати пробне заняття або пройти
+                                                            консультацію, щоб краще зрозуміти формат навчання.
+                                                      </p>
+                                                </div>
+                                          </div>
+
+                                          <!-- Item -->
+                                          <div class="question__item">
+                                                <button class="faq__question" type="button">
+                                                      <span>Скільки студентів у групі?</span>
+                                                      <span class="faq__icon">+</span>
+                                                </button>
+                                                <div class="faq__answer">
+                                                      <p>
+                                                            У середньому групи невеликі, щоб викладач міг приділити
+                                                            увагу
+                                                            кожному студентові.
+                                                      </p>
+                                                </div>
+                                          </div>
+
+                                          <!-- Item -->
+                                          <div class="question__item">
+                                                <button class="faq__question" type="button">
+                                                      <span>Чи можу я навчатися онлайн?</span>
+                                                      <span class="faq__icon">+</span>
+                                                </button>
+                                                <div class="faq__answer">
+                                                      <p>
+                                                            Так, ми пропонуємо онлайн-навчання, тому ви можете займатися
+                                                            з
+                                                            будь-якого зручного місця.
+                                                      </p>
+                                                </div>
+                                          </div>
+
+                                          <!-- Item -->
+                                          <div class="question__item">
+                                                <button class="faq__question" type="button">
+                                                      <span>Як швидко я зможу заговорити англійською?</span>
+                                                      <span class="faq__icon">+</span>
+                                                </button>
+                                                <div class="faq__answer">
+                                                      <p>
+                                                            Це залежить від вашого початкового рівня, регулярності
+                                                            занять і
+                                                            практики, але перші результати зазвичай помітні вже досить
+                                                            швидко.
+                                                      </p>
+                                                </div>
+                                          </div>
+
+                                          <!-- Item -->
+                                          <div class="question__item">
+                                                <button class="faq__question" type="button">
+                                                      <span>Чи буде у мене доступ до матеріалів після закінчення
+                                                            курсу?</span>
+                                                      <span class="faq__icon">+</span>
+                                                </button>
+                                                <div class="faq__answer">
+                                                      <p>
+                                                            Так, у більшості випадків доступ до матеріалів зберігається
+                                                            ще
+                                                            певний час після завершення навчання.
+                                                      </p>
+                                                </div>
+                                          </div>
+                                    </div>
+
+                                    <!-- Form -->
+                                    <div class="faq__form__wrapper animate-on-scroll">
+                                          <h3 class="faq__form__title">Не знайшли відповідь на своє питання?</h3>
+                                          <form class="faq__form js-telegram-form" id="faqForm"
+                                                data-form-type="FAQ form">
+                                                <input class="faq__form__input" type="text" name="name" id="name"
+                                                      placeholder="Ім'я" required />
+
+                                                <input class="faq__form__input" type="tel" name="phone" id="phone"
+                                                      placeholder="Номер телефону" required />
+
+                                                <textarea class="faq__form__textarea" name="comment" id="comment"
+                                                      placeholder="Коментар" required></textarea>
+
+                                                <button class="faq__form__button" type="submit" id="faqSubmitButton">
+                                                      Відправити питання
+                                                </button>
+
+                                                <p class="faq__form__message" id="faqFormMessage"></p>
+                                          </form>
+                                    </div>
+                              </div>
+                              <div class="contact__us" id="contacts">
+
+                                    <!-- Card -->
+                                    <div class="contact__card fade-up delay-1">
+                                          <h3>Контакти</h3>
+                                          <div class="contact__card__info">
+                                                <div class="contact__icon">
+                                                      <img src="./assets/img/header/phone-ring.svg" alt="phone icon">
+                                                </div>
+                                                <span>+380999999999</span>
+                                          </div>
+                                    </div>
+
+                                    <!-- Card -->
+                                    <div class="contact__card fade-up delay-2">
+                                          <h3>Email</h3>
+                                          <div class="contact__card__info">
+                                                <div class="contact__icon">
+                                                      <img src="./assets/img/header/envelope-alt.svg" alt="email icon">
+                                                </div>
+                                                <span>info@speak.com</span>
+                                          </div>
+                                    </div>
+
+                                    <!-- Card -->
+                                    <div class="contact__card fade-up delay-3">
+                                          <h3>Адреса</h3>
+                                          <div class="contact__card__info">
+                                                <div class="contact__icon">
+                                                      <img src="./assets/img/landing/courses-target/decor_for_card3.svg"
+                                                            alt="location icon">
+                                                </div>
+                                                <span>м. Київ, вул. Освіти, 7</span>
+                                          </div>
+                                    </div>
+
+                                    <!-- Card -->
+                                    <div class="contact__card fade-up delay-4">
+                                          <h3>Соцмережі</h3>
+                                          <div class="contact__card__socials">
+                                                <a href="#" class="contact__icon">
+                                                      <img src="./assets/img/header/tiktok.svg" alt="TikTok">
+                                                </a>
+                                                <a href="#" class="contact__icon">
+                                                      <img src="./assets/img/header/instagram.svg" alt="Instagram">
+                                                </a>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+
+                  </div>
+            </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+            <div class="container footer__content">
+
+                  <div class="footer__logo">
+                        <img src="./assets/img/header/Logo__white.svg" alt="Speak">
+                  </div>
+
+                  <nav class="footer__nav">
+                        <a href="./pages/courses/index.html">Курси</a>
+                        <a href="#about_us">Про нас</a>
+                        <a href="#reviews">Відгуки</a>
+                        <a href="#contacs">Контакти</a>
+                        <a href="#">Політика конфіденційності</a>
+                        <a href="#">Договір оферти</a>
+                  </nav>
+
+                  <div class="footer__copy">
+                        © 2024
+                  </div>
+
+            </div>
+      </footer>
+
+      <!-- Modal window -->
+      <div class="modal" id="course-modal" aria-hidden="true">
+            <div class="modal__overlay" data-close-modal></div>
+
+            <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+                  <button class="modal__close" type="button" aria-label="Закрити" data-close-modal>
+                        ×
+                  </button>
+
+                  <div class="modal__content">
+                        <h3 class="modal__title" id="modalTitle">Запишись на курс</h3>
+
+                        <form class="faq__form js-telegram-form" id="modalFaqForm" data-form-type="Modal form">
+                              <input class="faq__form__input" type="text" name="name" placeholder="Ім'я" required />
+
+                              <input class="faq__form__input" type="tel" name="phone" placeholder="Номер телефону"
+                                    required />
+
+                              <textarea class="faq__form__textarea" name="comment" placeholder="Коментар"
+                                    required></textarea>
+
+                              <button class="faq__form__button" type="submit">
+                                    Записатись
+                              </button>
+
+                              <p class="faq__form__message"></p>
+                        </form>
+                  </div>
+            </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="mobile__menu" id="mobileMenu" aria-hidden="true">
+            <div class="mobile__menu__content">
+                  <div class="mobile__menu__top">
+                        <div class="mobile__menu__logo">
+                              <a href="#hero">
+                                    <img src="./assets/img/header/Logo__img__removed.svg" alt="Logo">
+                              </a>
+                        </div>
+
+                        <button class="mobile__menu__close" id="mobileMenuClose" type="button"
+                              aria-label="Закрити меню">
+                              ×
+                        </button>
+                  </div>
+
+                  <nav class="mobile__menu__nav">
+                        <a href="./pages/courses/index.html" class="mobile__menu__link">Курси</a>
+                        <a href="#about_us" class="mobile__menu__link">Про нас</a>
+                        <a href="#reviews" class="mobile__menu__link">Відгуки</a>
+                        <a href="#contacts" class="mobile__menu__link">Контакти</a>
+                  </nav>
+
+                  <div class="mobile__menu__bottom">
+                        <a href="tel:+380123456789" class="mobile__menu__phone">
+                              <div class="mobile__menu__phone__icon">
+                                    <svg class="phone__icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                          viewBox="0 0 24 24">
+                                          <path
+                                                d="M18.07 22h.35c.47-.02.9-.26 1.17-.64l2.14-3.09c.23-.33.32-.74.24-1.14s-.31-.74-.64-.97l-4.64-3.09a1.47 1.47 0 0 0-.83-.25c-.41 0-.81.16-1.1.48l-1.47 1.59c-.69-.43-1.61-1.07-2.36-1.82s-1.39-1.68-1.82-2.36l1.59-1.47c.54-.5.64-1.32.23-1.93L7.84 2.67c-.22-.33-.57-.57-.97-.64a1.46 1.46 0 0 0-1.13.24L2.65 4.41c-.39.27-.62.7-.64 1.17-.03.69-.16 6.9 4.68 11.74 4.35 4.35 9.81 4.69 11.38 4.69ZM6.88 10.05c-.16.15-.21.39-.11.59.05.09 1.15 2.24 2.74 3.84 1.6 1.6 3.75 2.7 3.84 2.75.2.1.44.06.59-.11l1.99-2.15 3.86 2.57-1.7 2.46c-1.16 0-6.13-.24-9.99-4.1S4 7.06 4 5.91l2.46-1.7 2.57 3.86-2.15 1.99ZM20.1 13.1c2.53-2.53 2.53-6.66 0-9.19s-6.66-2.53-9.19 0l1.41 1.41a4.51 4.51 0 0 1 6.36 0 4.51 4.51 0 0 1 0 6.36l1.41 1.41Z">
+                                          </path>
+                                          <path
+                                                d="M17.71 10.71a3.114 3.114 0 0 0 0-4.41 3.114 3.114 0 0 0-4.41 0l1.41 1.41c.44-.44 1.15-.44 1.59 0s.44 1.15 0 1.59z">
+                                          </path>
+                                    </svg>
+                              </div>
+                              <span>0 (68) 662 99 43</span>
+                        </a>
+
+                        <div class="mobile__menu__socials">
+                              <a href="#" class="mobile__menu__icon">
+                                    <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                          fill="currentColor" viewBox="0 0 24 24">
+                                          <path
+                                                d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 3 3 0 0 1 .88.13V9.4a7 7 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a5 5 0 0 1-1-.1z">
+                                          </path>
+                                    </svg>
+                              </a>
+
+                              <a href="#" class="mobile__menu__icon">
+                                    <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                          fill="currentColor" viewBox="0 0 24 24">
+                                          <path
+                                                d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248m0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008m4.807-8.875a1.078 1.078 0 1 0 0 2.156 1.078 1.078 0 1 0 0-2.156">
+                                          </path>
+                                          <path
+                                                d="M20.533 6.111A4.6 4.6 0 0 0 17.9 3.479a6.6 6.6 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.6 6.6 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.6 6.6 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71s0 2.753.056 3.71c.015.748.156 1.486.419 2.187a4.6 4.6 0 0 0 2.634 2.632 6.6 6.6 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.6 6.6 0 0 0 2.186-.419 4.6 4.6 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.6 6.6 0 0 0-.421-2.217m-1.218 9.532a5 5 0 0 1-.311 1.688 3 3 0 0 1-1.712 1.711 5 5 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a5 5 0 0 1-1.669-.311 3 3 0 0 1-1.719-1.711 5.1 5.1 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654s0-2.686.053-3.655a5 5 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5 5 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a5 5 0 0 1 1.67.311 3 3 0 0 1 1.712 1.712 5.1 5.1 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655s0 2.698-.043 3.654z">
+                                          </path>
+                                    </svg>
+                              </a>
+
+                              <a href="#" class="mobile__menu__icon">
+                                    <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                          fill="currentColor" viewBox="0 0 24 24">
+                                          <path
+                                                d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248m0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008m4.807-8.875a1.078 1.078 0 1 0 0 2.156 1.078 1.078 0 1 0 0-2.156">
+                                          </path>
+                                          <path
+                                                d="M20.533 6.111A4.6 4.6 0 0 0 17.9 3.479a6.6 6.6 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.6 6.6 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.6 6.6 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71s0 2.753.056 3.71c.015.748.156 1.486.419 2.187a4.6 4.6 0 0 0 2.634 2.632 6.6 6.6 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.6 6.6 0 0 0 2.186-.419 4.6 4.6 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.6 6.6 0 0 0-.421-2.217m-1.218 9.532a5 5 0 0 1-.311 1.688 3 3 0 0 1-1.712 1.711 5 5 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a5 5 0 0 1-1.669-.311 3 3 0 0 1-1.719-1.711 5.1 5.1 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654s0-2.686.053-3.655a5 5 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5 5 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a5 5 0 0 1 1.67.311 3 3 0 0 1 1.712 1.712 5.1 5.1 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655s0 2.698-.043 3.654z">
+                                          </path>
+                                    </svg>
+                              </a>
+                        </div>
+
+                        <button class="mobile__menu__button" type="button" data-open-modal="course-modal">
+                              Записатись на курс
+                        </button>
+                  </div>
+            </div>
+      </div>
+
+      <script src="./assets/lib/splide/splide.min.js"></script>
+      <script src="./assets/js/modal.js"></script>
+      <script src="./assets/js/faq__form.js"></script>
+      <script src="./assets/js/accordion.js"></script>
+      <script src="./assets/js/header__scroll.js"></script>
+      <script src="./assets/js/burger__menu.js"></script>
+      <script src="./assets/js/animations.js"></script>
+      <script src="./assets/js/sliders.js"></script>
+</body>
+
+</html>
