@@ -11,12 +11,20 @@ document.addEventListener("DOMContentLoaded", () => {
             mobileMenu.classList.add("is-open");
             mobileMenu.setAttribute("aria-hidden", "false");
             document.body.classList.add("mobile-menu-open");
+
+            mobileMenuClose.focus();
       }
 
       function closeMobileMenu() {
+            if (mobileMenu.contains(document.activeElement)) {
+                  document.activeElement.blur();
+            }
+
             mobileMenu.classList.remove("is-open");
             mobileMenu.setAttribute("aria-hidden", "true");
             document.body.classList.remove("mobile-menu-open");
+
+            burgerButton.focus();
       }
 
       burgerButton.addEventListener("click", openMobileMenu);

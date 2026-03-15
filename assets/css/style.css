@@ -768,6 +768,11 @@
       font-weight: 700;
 }
 
+.about__list li span {
+      color: var(--secondary-color);
+      font-weight: 700;
+}
+
 .about__list li:before {
       content: "";
       position: absolute;
