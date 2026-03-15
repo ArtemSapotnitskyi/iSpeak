@@ -1,51 +1,23 @@
 document.addEventListener("DOMContentLoaded", () => {
-      const modal = document.getElementById("course-modal");
+      const faqItems = document.querySelectorAll(".question__item");
 
-      if (!modal) return;
+      if (!faqItems.length) return;
 
-      const selectedCourseText = document.getElementById("selectedCourseText");
-      const selectedCourseInput = document.getElementById("selectedCourseInput");
+      faqItems.forEach((item) => {
+            const question = item.querySelector(".faq__question");
 
-      function openModal(courseTitle = "") {
-            if (selectedCourseText) {
-                  selectedCourseText.textContent = courseTitle
-                        ? `Обраний курс: ${courseTitle}`
-                        : "";
-            }
+            if (!question) return;
 
-            if (selectedCourseInput) {
-                  selectedCourseInput.value = courseTitle;
-            }
+            question.addEventListener("click", () => {
+                  const isActive = item.classList.contains("active");
 
-            modal.classList.add("is-open");
-            modal.setAttribute("aria-hidden", "false");
-            document.body.classList.add("modal-open");
-      }
+                  faqItems.forEach((faqItem) => {
+                        faqItem.classList.remove("active");
+                  });
 
-      function closeModal() {
-            modal.classList.remove("is-open");
-            modal.setAttribute("aria-hidden", "true");
-            document.body.classList.remove("modal-open");
-      }
-
-      document.addEventListener("click", (event) => {
-            const openButton = event.target.closest("[data-open-modal='course-modal']");
-            const closeButton = event.target.closest("[data-close-modal]");
-
-            if (openButton) {
-                  const courseTitle = openButton.dataset.courseTitle || "";
-                  openModal(courseTitle);
-                  return;
-            }
-
-            if (closeButton) {
-                  closeModal();
-            }
-      });
-
-      document.addEventListener("keydown", (event) => {
-            if (event.key === "Escape" && modal.classList.contains("is-open")) {
-                  closeModal();
-            }
+                  if (!isActive) {
+                        item.classList.add("active");
+                  }
+            });
       });
 });

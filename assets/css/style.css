@@ -262,12 +262,14 @@
             margin-top: 0;
       }
 
-      .text_hero {
+      .text__hero {
             font-size: 22px;
             line-height: 1.15;
             margin: 14px 0 30px 0;
             max-width: 260px;
       }
+
+
 
       .button__hero {
             font-size: 18px;
@@ -324,6 +326,10 @@
             border-radius: 26px;
             grid-template-columns: 1.4fr 0.85fr;
             gap: 10px;
+      }
+
+      .text__hero span {
+            display: none;
       }
 
       .content__left__hero {
