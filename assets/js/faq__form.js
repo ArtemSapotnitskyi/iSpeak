@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-      const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwiib19rod999kMjf9f-SNvm-yVVmZbSbZNdOvP08sOP1KXkIdxlL0cmS3UyCaTBA-g/exec";
+      const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwbI5IQiInU4bWwhnQa29nT6Mj6N4kgV4ghlPOtZWzljCLsm8yfS1-u7c8-c9AFKd4f/exec";
       const forms = document.querySelectorAll(".js-telegram-form");
 
       if (!forms.length) return;
