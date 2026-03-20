@@ -760,7 +760,6 @@
 
 .about__list li {
       position: relative;
-      display: flex;
       align-items: center;
       gap: 12px;
       padding-left: 40px;
@@ -1053,6 +1052,10 @@
             text-align: left;
             width: fit-content;
             max-width: 100%;
+      }
+
+      .about__list li span {
+            font-size: 13px;
       }
 
       .about__list li::before {

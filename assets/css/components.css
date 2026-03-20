@@ -563,7 +563,6 @@ body.mobile-menu-open {
 
       display: flex;
       align-items: center;
-      justify-content: space-between;
 
       gap: 20px;
       padding: 17px 12px;
@@ -731,12 +730,15 @@ body.mobile-menu-open {
       }
 
       .team__text p {
-            font-weight: 300;
-            font-size: 14px;
+            display: none;
       }
 
       .skills__list li {
             font-size: 14px;
+      }
+
+      .skills__list .chage__skill {
+            display: none;
       }
 
       .team__card img {
@@ -778,6 +780,10 @@ body.mobile-menu-open {
       .skills__list li {
             font-size: 14px;
 
+      }
+
+      .skills__list .chage__skill {
+            display: none;
       }
 
       .team__text p {
