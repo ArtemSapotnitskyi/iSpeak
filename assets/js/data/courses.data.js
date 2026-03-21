@@ -68,7 +68,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для водіїв",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Англійська для далекобійників, водіїв автобусів та міжнародних перевезень. Спілкування на роботі та під час перетину кордону.",
   tags: [
     "Рівень: A2-B1",
@@ -82,7 +82,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для будівельників",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Професійна англійська для будівництва: інструменти, техніка безпеки та комунікація на об’єкті.",
   tags: [
     "Рівень: A2-B1",
@@ -96,7 +96,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для психологів",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Англійська для роботи з клієнтами, консультацій та професійної документації.",
   tags: [
     "Рівень: B1-B2",
@@ -110,7 +110,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для юристів",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Юридична лексика, офіційні документи, робота з контрактами та юридичними текстами.",
   tags: [
     "Рівень: B1-B2",
@@ -124,7 +124,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для військових",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Спеціальна військова лексика та практичні ситуації для міжнародної комунікації.",
   tags: [
     "Рівень: A2-B1",
@@ -138,7 +138,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для продавців",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Англійська для обслуговування клієнтів, продажів та роботи з іноземними покупцями.",
   tags: [
     "Рівень: A2-B1",
@@ -152,7 +152,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для кухарів",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Англійська для кухні та ресторану: інгредієнти, рецепти та комунікація на кухні.",
   tags: [
     "Рівень: A2-B1",
@@ -166,7 +166,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для дизайнерів",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Англійська для творчих професій: презентації проєктів, робота з клієнтами та міжнародні проєкти.",
   tags: [
     "Рівень: B1",
@@ -180,7 +180,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для електриків",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Професійна термінологія для роботи з електрикою, обладнанням та інструкціями.",
   tags: [
     "Рівень: A2-B1",
@@ -194,7 +194,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для програмістів / IT",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Англійська для IT: комунікація в міжнародних командах, документація та робота з клієнтами.",
   tags: [
     "Рівень: B1-B2",
@@ -208,7 +208,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для державних службовців",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Офіційна англійська мова для роботи з документами, міжнародними програмами та комунікацією.",
   tags: [
     "Рівень: B1",
@@ -222,7 +222,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для економістів / фінансистів",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Фінансова та ділова англійська для роботи з міжнародними партнерами та документацією.",
   tags: [
     "Рівень: B1-B2",
@@ -236,7 +236,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для б’юті сфери",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Англійська для косметологів, стилістів та майстрів салонів краси.",
   tags: [
     "Рівень: A2-B1",
@@ -250,7 +250,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для туристичного бізнесу",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Англійська для гідів, адміністраторів готелів та туроператорів.",
   tags: [
     "Рівень: A2-B1",
@@ -264,7 +264,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для маркетологів / SMM",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Англійська для роботи з міжнародними клієнтами, рекламними кампаніями та контентом.",
   tags: [
     "Рівень: B1-B2",
@@ -278,7 +278,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для медичних працівників",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Англійська для лікарів, медсестер та фармацевтів для міжнародної практики.",
   tags: [
     "Рівень: B1-B2",
@@ -292,7 +292,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для фрілансерів",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Англійська для спілкування з клієнтами з-за кордону, ведення проєктів та переговорів.",
   tags: [
     "Рівень: B1",
@@ -306,7 +306,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для стартаперів / підприємців",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Презентації, переговори, ділові листи та англійська для розвитку бізнесу.",
   tags: [
     "Рівень: B1-B2",
@@ -320,7 +320,7 @@ const coursesData =[
   language: "english",
   category: "profession",
   title: "Для готельно-ресторанного бізнесу",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Англійська для офіціантів, барменів та адміністраторів ресторанів і готелів.",
   tags: [
     "Рівень: A2-B1",
@@ -385,7 +385,7 @@ const coursesData =[
   language: "english",
   category: "special",
   title: "Бізнес-курс",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Англійська для ділових комунікацій: переговори, презентації, ділові листи та робота з міжнародними партнерами.",
   tags: [
     "Рівень: B1-B2",
@@ -399,7 +399,7 @@ const coursesData =[
   language: "english",
   category: "special",
   title: "Курс для вагітних",
-  price: "₴450/Урок",
+  price: "Від ₴650",
   description: "Легка англійська для майбутніх мам: базові теми, повсякденне спілкування та комфортний темп навчання.",
   tags: [
     "Рівень: A1-A2",
@@ -415,7 +415,7 @@ const coursesData =[
   language: "german",
   category: "general",
   title: "Для дітей",
-  price: "₴450/Урок",
+  price: "Від ₴225",
   description: "Заняття з викладачем у офлайн і онлайн форматі відповідно до твого рівня. Базова граматика, слова та прості розмови німецькою мовою.",
   tags: [
     "Рівень: A1-A2",
@@ -430,7 +430,7 @@ const coursesData =[
   language: "german",
   category: "general",
   title: "Базовий рівень",
-  price: "₴450/Урок",
+  price: "Від ₴225",
   description: "Заняття з викладачем у офлайн і онлайн форматі відповідно до твого рівня. Базова інтенсивна граматика, слова та прості розмови німецькою мовою.",
   tags: [
     "Рівень: A1-A2",
@@ -445,7 +445,7 @@ const coursesData =[
   language: "german",
   category: "general",
   title: "Середній рівень",
-  price: "₴450/Урок",
+  price: "Від ₴225",
   description: "Заняття з викладачем у офлайн і онлайн форматі відповідно до твого рівня. Середній рівень, впевнене складання речень та розуміння німецької.",
   tags: [
     "Рівень: A2-B1",
@@ -461,7 +461,7 @@ const coursesData =[
   language: "german",
   category: "general",
   title: "Продвинутий рівень",
-  price: "₴450/Урок",
+  price: "Від ₴225",
   description: "Заняття з викладачем у офлайн і онлайн форматі. Вище середнього, складніші конструкції, впевнене спілкування та письмові навички.",
   tags: [
     "Рівень: B1-B2",
@@ -477,7 +477,7 @@ const coursesData =[
   language: "french",
   category: "general",
   title: "Для дітей",
-  price: "₴450/Урок",
+  price: "Від ₴225",
   description: "Заняття з викладачем у офлайн і онлайн форматі відповідно до твого рівня. Базова граматика, слова та прості розмови французькою мовою.",
   tags: [
     "Рівень: A1-A2",
@@ -492,7 +492,7 @@ const coursesData =[
   language: "french",
   category: "general",
   title: "Базовий рівень",
-  price: "₴450/Урок",
+  price: "Від ₴225",
   description: "Заняття з викладачем у офлайн і онлайн форматі відповідно до твого рівня. Базова інтенсивна граматика, слова та прості розмови французькою мовою.",
   tags: [
     "Рівень: A1-A2",
@@ -507,7 +507,7 @@ const coursesData =[
   language: "french",
   category: "general",
   title: "Середній рівень",
-  price: "₴450/Урок",
+  price: "Від ₴225",
   description: "Заняття з викладачем у офлайн і онлайн форматі відповідно до твого рівня. Середній рівень, впевнене складання речень та розуміння французької.",
   tags: [
     "Рівень: A2-B1",
@@ -522,7 +522,7 @@ const coursesData =[
   language: "french",
   category: "general",
   title: "Продвинутий рівень",
-  price: "₴450/Урок",
+  price: "Від ₴225",
   description: "Заняття з викладачем у офлайн і онлайн форматі. Вище середнього, складніші конструкції, впевнене спілкування та письмові навички французькою мовою.",
   tags: [
     "Рівень: B1-B2",

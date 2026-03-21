@@ -1539,14 +1539,25 @@ body.mobile-menu-open {
       align-items: center;
       gap: 34px;
       flex-wrap: wrap;
+      color: #ffffff;
 }
 
 .footer__nav a {
-      color: #ffffff;
       text-decoration: none;
       font-size: 16px;
       font-weight: 500;
       transition: opacity 0.2s ease;
+}
+
+.footer__nav h3 {
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      transition: opacity 0.2s ease;
+}
+
+.footer__nav h3:hover {
+      opacity: 0.7;
 }
 
 .footer__nav a:hover {
