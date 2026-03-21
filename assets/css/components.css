@@ -52,7 +52,7 @@
 
 .header__right {
       display: flex;
-      gap: 30px;
+      gap: 25px;
       align-items: center;
 }
 
@@ -65,7 +65,7 @@
 .navigation ul {
       display: flex;
       flex-direction: row;
-      gap: 27px;
+      gap: 10px;
       align-items: center;
       color: var(--text-color-black);
 
