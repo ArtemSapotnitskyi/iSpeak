@@ -86,9 +86,11 @@
 }
 
 .card2 {
+      max-width: 160px;
+      width: 100%;
       padding: 11px 10px;
       bottom: 160px;
-      left: -55px;
+      left: -40px;
       gap: 10px;
       z-index: 1;
 }

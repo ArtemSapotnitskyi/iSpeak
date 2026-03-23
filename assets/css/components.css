@@ -499,15 +499,37 @@ body.mobile-menu-open {
       margin-top: 25px;
 }
 
-.content__left__hero h1 {
+.visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+}
+
+.content__left__hero h2 {
       margin-top: 20px;
+}
+
+.hero__subtitle {
+      max-width: 432px;
+      margin: 20px 0 40px 0;
+      line-height: 1.5;
+}
+
+.hero__subtitle span {
+      font-weight: 700;
+      color: var(--secondary-color);
 }
 
 .text__hero {
       border-left: 4px solid #9BC43D;
       padding-left: 5px;
       font-size: 30px;
-      margin: 5px 0 70px 0;
 }
 
 .button__hero {
@@ -679,6 +701,11 @@ body.mobile-menu-open {
 }
 
 @media (max-width: 768px) {
+
+      .hero__subtitle {
+            display: none;
+      }
+
       .team__slider .splide__list {
             display: flex;
             gap: 0;
@@ -944,7 +971,17 @@ body.mobile-menu-open {
 .text__section__reviews h2 {
       font-family: "Poppins", sans-serif;
       font-size: 30px;
+}
 
+.subtitle__reviews {
+      margin-top: 10px;
+      max-width: 840px;
+      width: 100%;
+}
+
+.subtitle__reviews span {
+      color: var(--secondary-color);
+      font-weight: 700;
 }
 
 .review-card {
@@ -1043,6 +1080,15 @@ body.mobile-menu-open {
       display: flex;
       align-items: flex-start;
       flex-direction: column;
+      align-items: center;
+}
+
+.user__nikname p {
+      padding: 6px 10px;
+      text-align: center;
+      border-radius: 16px;
+      border: 1px solid var(--lines-color);
+      font-size: 13px;
 }
 
 .reviews__slider {
@@ -1069,6 +1115,12 @@ body.mobile-menu-open {
 
 .splide__arrow svg {
       fill: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+      .subtitle__reviews {
+            display: none;
+      }
 }
 
 /* End */
